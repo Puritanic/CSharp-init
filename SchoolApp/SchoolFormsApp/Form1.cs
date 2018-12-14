@@ -11,13 +11,14 @@ using SchoolLibrary;
 
 namespace SchoolFormsApp
 {
+	// This is public 
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
         }
-
+		// Only accessible inside this class (private)
         private void btnPushToTest_Click(object sender, EventArgs e)
         {
             var testSchool = new School();

@@ -10,7 +10,7 @@ namespace FirstConsoleApp
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Welcome to C# Essential Training Part 1!");
+			Console.WriteLine("Welcome to C# Essential Training!");
 			Console.WriteLine("Press the enter key to exit.");
 			Console.ReadLine();
 		}
